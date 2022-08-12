@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru, en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,500;7..72,900&display=swap" rel="stylesheet">
+
+    
+    <title>Hotel</title>
+</head>
+<body>
+
+<!-- HEADER -->
+
+<nav class="navbar" id="navbar">
+  <div class="container_header">
+    <div class="navbar__wrap">
+      <div class="hamb">
+        <div class="hamb__field" id="hamb">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+      <a href="#" class="logo" id="logo">Vip Hotel</a>
+      <ul class="menu" id="menu">
+        <li><a class="nav_link" href="#information">Информация</a></li>
+        <li><a class="nav_link" href="#rooms">Номера</a></li>
+        <li><a class="nav_link nav_link_right" href="#entertainment">Развлечения</a></li>
+        <li><a class="nav_link_contact"  href="#contacts">Контакты</a></li>
+      
+    </div>
+  </div>
+</nav>
+  
+<div class="popup" id="popup"></div>
+
+<!-- INFORMATION -->
+
+<div class="information" id="information">
+
+  <div class="information_none"></div>
+
+  <div class="information_left">
+    <img src="img/information/procent.png" alt="%" class="information_img_left">
+    <p class="information_text">При бронировании - 5% <br> Море в двух минутах ходьбы</p>
+  </div>
+
+  <div class="information_none"></div>
+
+  <div class="information_right">
+    <img src="img/information/food.png" alt="%" class="information_img_right">
+    <p class="information_text">Питание включено <br> В наличии летняя кухня и барбекю</p>
+  </div>
+
+</div> <!-- ./div.information-->
+
+<!-- ROOMS --> 
+
+<div class="rooms" id="rooms">
+
+  <div class="rooms_title_c">
+    <div class="rooms_title">
+      Номера
+    </div>
+  </div>
+
+  <div class="rooms_container">
+    <div class="single_rooms_container">
+
+      <div class="small_rooms_title">
+        Одноместные
+      </div>
+
+      <div class="single_rooms">
+        
+
+       <input id="slide-1" type="radio" name="slides" checked>
+       <section class="slide slide-one_single">
+         <h1></h1>
+       </section>
+
+       <input id="slide-2" type="radio" name="slides">
+       <section class="slide slide-two_single">
+         <h1></h1>
+       </section>
+
+       <input id="slide-3" type="radio" name="slides">
+       <section class="slide slide-three_single">
+         <h1></h1>
+       </section>
+
+       <input id="slide-4" type="radio" name="slides">
+       <section class="slide slide-four_single">
+         <h1></h1>
+       </section>
+
+      </div>
+    </div>
+
+    <div class="double_rooms_container">
+      
+        <div class="small_rooms_title small_rooms_title_r">
+          Двуместные
+        </div>
+
+      <div class="double_rooms">
+
+        <input id="slide-1" type="radio" name="slides" checked>
+        <section class="slide slide-one_double">
+          <h1></h1>
+        </section>
+ 
+        <input id="slide-2" type="radio" name="slides">
+        <section class="slide slide-two_double">
+          <h1></h1>
+        </section>
+ 
+        <input id="slide-3" type="radio" name="slides">
+        <section class="slide slide-three_double">
+          <h1></h1>
+        </section>
+ 
+        <input id="slide-4" type="radio" name="slides">
+        <section class="slide slide-four_double">
+          <h1></h1>
+        </section>
+
+      </div>
+    </div>
+    
+    <div class="triple_rooms_container">
+      <div class="big_rooms_title">
+        Трёхместные
+      </div>
+
+      <div class="triple_rooms">
+
+
+        <input id="slide-1" type="radio" name="slides" checked>
+        <section class="slide slide_triple slide-one_triple">
+          <h1></h1>
+        </section>
+
+        <input id="slide-2" type="radio" name="slides">
+        <section class="slide slide_triple slide-two_triple">
+          <h1></h1>
+        </section>
+
+      </div>
+    </div>
+
+  </div> <!-- ./div.rooms_container-->
+</div> <!-- ./div.rooms-->
+
+<!-- Summer cuisine -->
+
+<div class="summer_cuisine_container" id="entertainment">
+  <div class="summer_cuisine">
+
+    <div class="summer_cuisine_title">
+      Летняя кухня
+    </div>
+
+      <div class="summer_cuisine_text">
+        <p>Летняя кухня - Представляет собой <br>
+        ресторан на открытом воздухе.<br>
+        Услуга включена в плату за номер.<br>
+        Летние блюда и десерты на свежем воздухе,<br>
+        кухни различны стран мира.</p>
+      </div>
+
+      <div class="summer_cuisine_img">
+        <img src="img/summer_cuisine/1.jpg" class="summer_cuisine_image" alt="img">
+      </div>
+
+  </div>
+</div>
+
+<!-- CONTACTS -->
+
+<div class="contacts" id="contacts">
+
+  <div class="contacts_title">
+    Контакты
+  </div>
+
+  <div class="contacts_number">
+    <div class="number">
+      +79780000000
+    </div>
+    <div class="number_icon">
+      <img src="img/contacts/number.png" alt="">
+    </div>
+  </div>
+
+  <div class="contacts_email">
+    <div class="email">
+      Email@gmail.com
+    </div>
+    <div class="email_icon">
+      <img src="img/contacts/email.png" alt="">
+    </div>
+  </div>
+
+  <div class="company_name">
+    Vip Hotel
+  </div>
+
+</div>
+
+<!-- Javascript -->
+
+<script src="app.js"></script>
+
+</body>
+</html>
